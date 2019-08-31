@@ -2,6 +2,7 @@ package com.api.usuario.controller;
 
 import com.api.usuario.model.Usuario;
 import com.api.usuario.repository.UsuarioRepository;
+import com.api.usuario.service.ServiceUsuario;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ public class UsuarioController {
 
     @Autowired
     UsuarioRepository usuarioRepository;
+
+    @Autowired
+    ServiceUsuario serviceUsuario;
 
     @GetMapping(value = "/")
     public String home(){
@@ -40,7 +44,7 @@ public class UsuarioController {
     @PostMapping(value = "/usuario/salvar")
     @ApiOperation(value = "Salva um usuario")
     public Usuario salvarUsuario(@RequestBody Usuario usuario){
-        return usuarioRepository.save(usuario);
+        return serviceUsuario.salvar(usuario);
     }
 
     @DeleteMapping(value = "/usuario/deletar/{id}")
