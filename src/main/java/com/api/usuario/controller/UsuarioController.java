@@ -31,33 +31,34 @@ public class UsuarioController {
 
     @GetMapping(value = "/usuario/listar/")
     @ApiOperation(value = "Retorna uma lista de usuarios")
-    public List<Usuario> listarUsuarios(){
-        return usuarioRepository.findAll();
+    public ResponseEntity<?> listarUsuarios(){
+        return new ResponseEntity<>(usuarioRepository.findAll(), HttpStatus.OK);
     }
 
     @GetMapping(value = "/usuario/listar/{id}")
     @ApiOperation(value = "Retorna um usuario pelo id")
-    public Usuario listarUsuarioId(@PathVariable("id") long id){
-        return usuarioRepository.findById(id);
+    public ResponseEntity<?> listarUsuarioId(@PathVariable("id") long id){
+        return new ResponseEntity<>(usuarioRepository.findById(id),HttpStatus.OK);
     }
 
     @PostMapping(value = "/usuario/salvar")
     @ApiOperation(value = "Salva um usuario")
-    public Usuario salvarUsuario(@RequestBody Usuario usuario){
-        return serviceUsuario.salvar(usuario);
+    public ResponseEntity<?> salvarUsuario(@RequestBody Usuario usuario){
+        return new ResponseEntity<>(serviceUsuario.salvar(usuario), HttpStatus.OK);
     }
 
     @DeleteMapping(value = "/usuario/deletar/{id}")
     @ApiOperation(value = "Deleta um usuario pelo id")
-    public ResponseEntity<String> deletarUsuario(@PathVariable("id") long id){
+    public ResponseEntity<?> deletarUsuario(@PathVariable("id") long id){
         usuarioRepository.deleteById(id);
-        return new ResponseEntity<String>("Usuario deletado com sucesso", HttpStatus.OK);
+        return new ResponseEntity<>("Usuario deletado com sucesso", HttpStatus.OK);
     }
 
     @PutMapping(value = "/usuario/atualizar")
     @ApiOperation(value = "Retorna uma lista de atualiza um usuario")
-    public Usuario atualizarUsuario(@RequestBody Usuario usuario){
-        return usuarioRepository.save(usuario);
+    public ResponseEntity<?> atualizarUsuario(@RequestBody Usuario usuario){
+        usuarioRepository.save(usuario);
+        return new ResponseEntity<>("Usuario atualizado com sucesso", HttpStatus.OK);
     }
 
 }

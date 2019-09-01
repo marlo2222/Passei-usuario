@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f375622c-d423-43a2-be45-274858172c7b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/controller/UsuarioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/UsuarioApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/UsuarioApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/configuration/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/configuration/SwaggerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/controller/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/model/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/repository/UsuarioRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/api/usuario/UsuarioApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/api/usuario/UsuarioApplicationTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567117338226</updated>
       <workItem from="1567117339716" duration="1556000" />
-      <workItem from="1567211110150" duration="2029000" />
+      <workItem from="1567211110150" duration="2086000" />
+      <workItem from="1567363161166" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="mudanças com cripografia da senha">
       <created>1567213677902</created>
@@ -83,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567213677902</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="json ignore">
+      <created>1567213771055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567213771055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mudanças com cripografia da senha" />
-    <option name="LAST_COMMIT_MESSAGE" value="mudanças com cripografia da senha" />
+    <MESSAGE value="json ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="json ignore" />
   </component>
 </project>

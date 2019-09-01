@@ -20,7 +20,6 @@ public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    @JsonIgnore
     private long id;
 
     @Column(name = "primeiroNome", nullable = false)
