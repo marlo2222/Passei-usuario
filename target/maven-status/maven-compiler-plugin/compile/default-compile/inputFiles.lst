@@ -1,4 +1,6 @@
+/home/marlo/Documents/trabalho/usuario/src/main/java/com/api/usuario/service/ServiceUsuario.java
 /home/marlo/Documents/trabalho/usuario/src/main/java/com/api/usuario/repository/UsuarioRepository.java
+/home/marlo/Documents/trabalho/usuario/src/main/java/com/api/usuario/configuration/WebMvcConfig.java
 /home/marlo/Documents/trabalho/usuario/src/main/java/com/api/usuario/model/Usuario.java
 /home/marlo/Documents/trabalho/usuario/src/main/java/com/api/usuario/configuration/SwaggerConfig.java
 /home/marlo/Documents/trabalho/usuario/src/main/java/com/api/usuario/controller/UsuarioController.java

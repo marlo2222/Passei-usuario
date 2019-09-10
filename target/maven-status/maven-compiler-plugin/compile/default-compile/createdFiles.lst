@@ -1,0 +1,7 @@
+com/api/usuario/UsuarioApplication.class
+com/api/usuario/controller/UsuarioController.class
+com/api/usuario/service/ServiceUsuario.class
+com/api/usuario/model/Usuario.class
+com/api/usuario/configuration/SwaggerConfig.class
+com/api/usuario/configuration/WebMvcConfig.class
+com/api/usuario/repository/UsuarioRepository.class

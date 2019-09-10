@@ -10,12 +10,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
 @RequestMapping("/api")
 @Api(value = "API de usuarios")
-@CrossOrigin("*/")
 public class UsuarioController {
 
     @Autowired
@@ -44,7 +41,8 @@ public class UsuarioController {
     @PostMapping(value = "/usuario/salvar")
     @ApiOperation(value = "Salva um usuario")
     public ResponseEntity<?> salvarUsuario(@RequestBody Usuario usuario){
-        return new ResponseEntity<>(serviceUsuario.salvar(usuario), HttpStatus.OK);
+        serviceUsuario.salvar(usuario)
+        return new ResponseEntity<>("Salvo Com Sucesso", HttpStatus.CREATED);
     }
 
     @DeleteMapping(value = "/usuario/deletar/{id}")

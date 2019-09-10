@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f375622c-d423-43a2-be45-274858172c7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.factorypath" beforeDir="false" afterPath="$PROJECT_DIR$/.factorypath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/controller/UsuarioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/service/ServiceUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/service/ServiceUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/controller/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/model/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="184" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,7 +81,18 @@
       <updated>1567117338226</updated>
       <workItem from="1567117339716" duration="1556000" />
       <workItem from="1567211110150" duration="2086000" />
-      <workItem from="1567363161166" duration="1012000" />
+      <workItem from="1567363161166" duration="1075000" />
+      <workItem from="1567375797847" duration="65000" />
+      <workItem from="1567376999940" duration="1184000" />
+      <workItem from="1567378786586" duration="232000" />
+      <workItem from="1567379453005" duration="395000" />
+      <workItem from="1567380693741" duration="245000" />
+      <workItem from="1567422915619" duration="239000" />
+      <workItem from="1567423427569" duration="613000" />
+      <workItem from="1567426586938" duration="990000" />
+      <workItem from="1567444086743" duration="220000" />
+      <workItem from="1567905205398" duration="480000" />
+      <workItem from="1568159712661" duration="152000" />
     </task>
     <task id="LOCAL-00001" summary="mudanças com cripografia da senha">
       <created>1567213677902</created>
@@ -85,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567213771055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mudanças nnos responses entiny">
+      <created>1567368216772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567368216772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +137,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mudanças com cripografia da senha" />
     <MESSAGE value="json ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="json ignore" />
+    <MESSAGE value="mudanças nnos responses entiny" />
+    <option name="LAST_COMMIT_MESSAGE" value="mudanças nnos responses entiny" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/usuario$UsuarioApplication.ic" NAME="UsuarioApplication Coverage Results" MODIFIED="1567423964225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
