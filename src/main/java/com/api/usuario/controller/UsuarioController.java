@@ -26,33 +26,33 @@ public class UsuarioController {
         return "Acesse seu endereço local /swagger-ui.html#!/";
     }
 
-    @GetMapping(value = "/usuario/listar/")
+    @GetMapping(value = "/usuario")
     @ApiOperation(value = "Retorna uma lista de usuarios")
     public ResponseEntity<?> listarUsuarios(){
         return new ResponseEntity<>(usuarioRepository.findAll(), HttpStatus.OK);
     }
 
-    @GetMapping(value = "/usuario/listar/{id}")
+    @GetMapping(value = "/usuario/{id}")
     @ApiOperation(value = "Retorna um usuario pelo id")
     public ResponseEntity<?> listarUsuarioId(@PathVariable("id") long id){
         return new ResponseEntity<>(usuarioRepository.findById(id),HttpStatus.OK);
     }
 
-    @PostMapping(value = "/usuario/salvar")
+    @PostMapping(value = "/usuario")
     @ApiOperation(value = "Salva um usuario")
     public ResponseEntity<?> salvarUsuario(@RequestBody Usuario usuario){
-        serviceUsuario.salvar(usuario)
+        serviceUsuario.salvar(usuario);
         return new ResponseEntity<>("Salvo Com Sucesso", HttpStatus.CREATED);
     }
 
-    @DeleteMapping(value = "/usuario/deletar/{id}")
+    @DeleteMapping(value = "/usuario/{id}")
     @ApiOperation(value = "Deleta um usuario pelo id")
     public ResponseEntity<?> deletarUsuario(@PathVariable("id") long id){
         usuarioRepository.deleteById(id);
-        return new ResponseEntity<>("Usuario deletado com sucesso", HttpStatus.OK);
+        return new ResponseEntity<>("Usuario deletado com sucesso", HttpStatus.NO_CONTENT);
     }
 
-    @PutMapping(value = "/usuario/atualizar")
+    @PutMapping(value = "/usuario")
     @ApiOperation(value = "Retorna uma lista de atualiza um usuario")
     public ResponseEntity<?> atualizarUsuario(@RequestBody Usuario usuario){
         usuarioRepository.save(usuario);

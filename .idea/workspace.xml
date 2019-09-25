@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f375622c-d423-43a2-be45-274858172c7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.factorypath" beforeDir="false" afterPath="$PROJECT_DIR$/.factorypath" afterDir="false" />
+    <list default="true" id="f375622c-d423-43a2-be45-274858172c7b" name="Default Changelist" comment="mudanças nas rotas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/service/ServiceUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/service/ServiceUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/controller/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/model/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +83,8 @@
       <workItem from="1567444086743" duration="220000" />
       <workItem from="1567905205398" duration="480000" />
       <workItem from="1568159712661" duration="152000" />
+      <workItem from="1568160690206" duration="48000" />
+      <workItem from="1569445977523" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="mudanças com cripografia da senha">
       <created>1567213677902</created>
@@ -138,7 +130,8 @@
     <MESSAGE value="mudanças com cripografia da senha" />
     <MESSAGE value="json ignore" />
     <MESSAGE value="mudanças nnos responses entiny" />
-    <option name="LAST_COMMIT_MESSAGE" value="mudanças nnos responses entiny" />
+    <MESSAGE value="mudanças nas rotas" />
+    <option name="LAST_COMMIT_MESSAGE" value="mudanças nas rotas" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/usuario$UsuarioApplication.ic" NAME="UsuarioApplication Coverage Results" MODIFIED="1567423964225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
