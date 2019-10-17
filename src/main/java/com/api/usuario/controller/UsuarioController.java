@@ -41,12 +41,12 @@ public class UsuarioController {
         return new ResponseEntity<>(usuarioRepository.findAll(), HttpStatus.OK);
     }
 
-    @GetMapping(value = "/usuario/{email}")
-    @ApiOperation(value = "Retorna um usuario pelo email")
-    public ResponseEntity<?> listarUsuarioId(@PathVariable("email") String email){
-        Usuario usuario = usuarioRepository.findByEmail(email);
+    @GetMapping(value = "/usuario/{matricula}")
+    @ApiOperation(value = "Retorna um usuario pela matricula")
+    public ResponseEntity<?> listarUsuarioMatricula(@PathVariable(value = "matricula") String matricula){
+        Usuario usuario = usuarioRepository.findByMatricula(matricula);
         if(usuario == null)
-            return new ResponseEntity<>("Nao ha email cadastrado",HttpStatus.NO_CONTENT);
+            return new ResponseEntity<>("Nao ha matricula cadastrada",HttpStatus.NO_CONTENT);
         return new ResponseEntity<>(usuario,HttpStatus.OK);
     }
 
