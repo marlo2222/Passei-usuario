@@ -40,9 +40,9 @@ public class UsuarioController {
 
     @PostMapping(value = "/usuario")
     @ApiOperation(value = "Salva um usuario")
-    public ResponseEntity<?> salvarUsuario(@RequestBody Usuario usuario){
+    public Usuario salvarUsuario(@RequestBody Usuario usuario){
         serviceUsuario.salvar(usuario);
-        return new ResponseEntity<>("Salvo Com Sucesso", HttpStatus.CREATED);
+        return usuario;
     }
 
     @DeleteMapping(value = "/usuario/{id}")

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f375622c-d423-43a2-be45-274858172c7b" name="Default Changelist" comment="mudanças nas rotas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/api/usuario/UsuarioApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/api/usuario/UsuarioApplicationTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +84,7 @@
       <workItem from="1568159712661" duration="152000" />
       <workItem from="1568160690206" duration="48000" />
       <workItem from="1569445977523" duration="315000" />
+      <workItem from="1571321029935" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="mudanças com cripografia da senha">
       <created>1567213677902</created>
