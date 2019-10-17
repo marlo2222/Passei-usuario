@@ -50,11 +50,11 @@ public class UsuarioController {
         return new ResponseEntity<>(usuario,HttpStatus.OK);
     }
 
-    @GetMapping(value = "/usuario/{id}")
-    @ApiOperation(value = "Retorna um usuario pelo id")
-    public ResponseEntity<?> listarUsuarioId(@PathVariable("id") long id){
-        return new ResponseEntity<>(usuarioRepository.findById(id),HttpStatus.OK);
-    }
+    // @GetMapping(value = "/usuario/{id}")
+    // @ApiOperation(value = "Retorna um usuario pelo id")
+    // public ResponseEntity<?> listarUsuarioId(@PathVariable("id") long id){
+    //     return new ResponseEntity<>(usuarioRepository.findById(id),HttpStatus.OK);
+    // }
     @PostMapping(value = "/usuario")
     @ApiOperation(value = "Salva um usuario")
     public Usuario salvarUsuario(@RequestBody Usuario usuario){
