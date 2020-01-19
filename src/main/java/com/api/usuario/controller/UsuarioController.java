@@ -44,10 +44,7 @@ public class UsuarioController {
     @GetMapping(value = "/usuario/{matricula}")
     @ApiOperation(value = "Retorna um usuario pela matricula")
     public ResponseEntity<?> listarUsuarioMatricula(@PathVariable(value = "matricula") String matricula){
-        Usuario usuario = usuarioRepository.findByMatricula(matricula);
-        if(usuario == null)
-            return new ResponseEntity<>("Nao ha matricula cadastrada",HttpStatus.NO_CONTENT);
-        return new ResponseEntity<>(usuario,HttpStatus.OK);
+        return serviceUsuario.buscarUSuarioMatricula(matricula);
     }
 
     // @GetMapping(value = "/usuario/{id}")

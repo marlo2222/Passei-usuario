@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f375622c-d423-43a2-be45-274858172c7b" name="Default Changelist" comment="mudanças nas rotas">
+    <list default="true" id="f375622c-d423-43a2-be45-274858172c7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/configuration/RedisConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/UsuarioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/UsuarioApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/controller/UsuarioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/usuario/service/ServiceUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/usuario/service/ServiceUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/UsuarioApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/UsuarioApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/configuration/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/configuration/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/configuration/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/configuration/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/controller/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/model/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/usuario/service/ServiceUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/usuario/service/ServiceUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/api/usuario/UsuarioApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/api/usuario/UsuarioApplicationTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +105,9 @@
       <workItem from="1571321029935" duration="16000" />
       <workItem from="1571743015371" duration="305000" />
       <workItem from="1571760432724" duration="11000" />
-      <workItem from="1572957091986" duration="165000" />
+      <workItem from="1572957091986" duration="490000" />
+      <workItem from="1572969182457" duration="432000" />
+      <workItem from="1573058059374" duration="4063000" />
     </task>
     <task id="LOCAL-00001" summary="mudanças com cripografia da senha">
       <created>1567213677902</created>
@@ -111,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567368216772</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adiconando userdetails">
+      <created>1572957496438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572957496438</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +161,8 @@
     <MESSAGE value="json ignore" />
     <MESSAGE value="mudanças nnos responses entiny" />
     <MESSAGE value="mudanças nas rotas" />
-    <option name="LAST_COMMIT_MESSAGE" value="mudanças nas rotas" />
+    <MESSAGE value="adiconando userdetails" />
+    <option name="LAST_COMMIT_MESSAGE" value="adiconando userdetails" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/usuario$UsuarioApplication.ic" NAME="UsuarioApplication Coverage Results" MODIFIED="1567423964225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
