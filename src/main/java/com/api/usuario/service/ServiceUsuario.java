@@ -18,7 +18,6 @@ public class ServiceUsuario {
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
-    @Cacheable(cacheNames = "Usuario", key = "#matricula")
     public ResponseEntity<?> buscarUSuarioMatricula(String matricula){
         Usuario usuario = usuarioRepository.findByMatricula(matricula);
         if(usuario == null)

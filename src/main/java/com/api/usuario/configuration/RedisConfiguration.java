@@ -25,7 +25,7 @@ import java.util.List;
 
 @Configuration
 public class RedisConfiguration {
-
+    /*
     @Bean
     JedisConnectionFactory jedisConnectionFactory() {
         return new JedisConnectionFactory();
@@ -42,5 +42,5 @@ public class RedisConfiguration {
 
         template.setConnectionFactory(connectionFactory);
         return template;
-    }
+    }*/
 }
